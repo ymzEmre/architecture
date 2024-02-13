@@ -11,3 +11,7 @@ class User {
     return `Name: ${this.name}, Email: ${this.email}`
   }
 }
+
+// Usage
+const user = new User('John Doe', 'john@doe.com')
+console.log(user.getUserInfo())
