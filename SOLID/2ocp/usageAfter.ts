@@ -1,6 +1,6 @@
-import { BasePayment } from './BasePayment'
-import { PayPalPayment } from './PayPalPayment'
-import { BitcoinPayment } from './BitcoinPayment'
+import { BasePayment } from './after/BasePayment'
+import { PayPalPayment } from './after/PayPalPayment'
+import { BitcoinPayment } from './after/BitcoinPayment'
 
 const basePayment = new BasePayment()
 const payPalPayment = new PayPalPayment()

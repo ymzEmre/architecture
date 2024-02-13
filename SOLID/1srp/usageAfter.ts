@@ -1,6 +1,6 @@
-import { User } from './User'
-import { UserRepository } from './UserRepository'
-import { EmailService } from './EmailService'
+import { User } from './after/User'
+import { UserRepository } from './after/UserRepository'
+import { EmailService } from './after/EmailService'
 
 const user = new User('John Doe', 'john@doe.com')
 

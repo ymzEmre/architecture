@@ -1,4 +1,4 @@
-class Payment {
+export class Payment {
   constructor(private method: string) {}
 
   pay(amount: number): void {
@@ -11,7 +11,3 @@ class Payment {
     }
   }
 }
-
-// Usage
-const payment = new Payment('creditCard')
-payment.pay(150)
